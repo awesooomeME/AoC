@@ -2,7 +2,7 @@
 
 x = [1]
 def part1():
-    with open("input/Day10.txt") as f: lines = f.readlines()
+    with open("./Day10.txt") as f: lines = f.readlines()
     for line in lines:
         instruction, *value = line.strip().split()
         if value:

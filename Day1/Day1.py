@@ -1,7 +1,7 @@
 '''https://adventofcode.com/2022/day/1'''
 
 def countCalories(num=1):
-    with open("input/Day1.txt") as f: lines = f.readlines()
+    with open("./Day1.txt") as f: lines = f.readlines()
     calories = []
     calory = 0
     for line in lines:
@@ -20,4 +20,3 @@ def countCalories(num=1):
 
 print(countCalories(2))
 print(countCalories(4))
-

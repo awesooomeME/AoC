@@ -1,7 +1,7 @@
 '''https://adventofcode.com/2022/day/3'''
 
 def part1():
-    with open("input/Day3.txt") as f: lines=f.readlines()
+    with open("./Day3.txt") as f: lines=f.readlines()
     score = 0
     for line in lines:
         ls = []
@@ -14,7 +14,7 @@ def part1():
     return score  
 
 def part2():
-    with open("input/Day3.txt") as f: lines=f.readlines()
+    with open("./Day3.txt") as f: lines=f.readlines()
     score = 0
     for i in range(0,len(lines),3):
         ls = []

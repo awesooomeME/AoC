@@ -11,7 +11,7 @@ stacks = [["B","S","V","Z","G","P","W"],
           ["J","F","H","C"]]
 
 def part1():
-    with open("input/Day5.txt") as f: lines = f.readlines()
+    with open("./Day5.txt") as f: lines = f.readlines()
     for line in lines:
         for i in range(0,int(line.split(" ")[1])):
             temp = stacks[int(line.split(" ")[3])-1].pop(-1)
@@ -23,7 +23,7 @@ def part1():
     return topStack
 
 def part2():
-    with open("input/Day5.txt") as f: lines = f.readlines()
+    with open("./Day5.txt") as f: lines = f.readlines()
     for line in lines:
         temp = []
         for i in range(0,int(line.split(" ")[1])):

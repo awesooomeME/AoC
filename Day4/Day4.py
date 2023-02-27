@@ -1,7 +1,7 @@
 '''https://adventofcode.com/2022/day/4'''
 
 def checkOverlap(isFullOverlap):
-    with open("input/Day4.txt") as f: lines = f.readlines()
+    with open("./Day4.txt") as f: lines = f.readlines()
     num = 0
     for line in lines:
         pair1, pair2 = line.split(",")

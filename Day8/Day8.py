@@ -1,6 +1,6 @@
 '''https://adventofcode.com/2022/day/8'''
 
-with open("input/Day8.txt") as f:  lines = f.readlines()
+with open("./Day8.txt") as f:  lines = f.readlines()
 grid = [line.split("\n")[0] for line in lines]
 
 def part1(row, col):

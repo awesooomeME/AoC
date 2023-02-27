@@ -3,7 +3,7 @@
 def get_dir(threshold, isPart1):
     dirs = {"/" : 0}
     cwd = ["/"]
-    with open("input/Day7.txt") as f: lines = f.readlines()
+    with open("./Day7.txt") as f: lines = f.readlines()
     for line in lines:
         line = line[:-1].split(" ")
         if line[0] == "$":

@@ -5,7 +5,7 @@ DIRECTIONS = {"R": 1+0j, "L": -1+0j, "U": -1j, "D": 1j}
 def simulate_rope(length):
     rope = [0+0j]*length
     tail = set()
-    with open("input/Day9.txt") as f: lines = f.readlines()
+    with open("./Day9.txt") as f: lines = f.readlines()
     for line in lines:
         direction, steps = line.strip().split()
         for _ in range(int(steps)):
